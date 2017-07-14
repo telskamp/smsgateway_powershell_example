@@ -1,1 +1,3 @@
-# smsgateway_powershell_example
+# smsgateway powershell example.
+
+https://smsgateway.me 
