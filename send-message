@@ -1,0 +1,19 @@
+$email = "your@email.com"
+$password = "Your_password"
+$device = "12345"
+$message = "Your message" 
+$tel = "+1234567890"
+
+
+$baseurl = "http://smsgateway.me/api/v3/messages/send"
+
+$body = @{ 
+
+email = $email
+password = $password
+device = $device
+message = $message
+number = $tel
+}
+
+invoke-webrequest -method post -uri $baseurl -body $body
